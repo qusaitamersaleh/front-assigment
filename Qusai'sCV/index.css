@@ -1,0 +1,122 @@
+body {
+    /* background: linear-gradient(to bottom, white, gray); */
+    background: linear-gradient(to bottom, rgb(195, 227, 246), rgb(194, 186, 186));
+    font-family: 'Times New Roman', serif;
+    align-items: center;     
+}
+
+#CvMainCard {
+    width: 90em;
+    height:57em;
+    display: flex;
+    border-radius: 1em;
+    background: white;
+    margin-top: 2em;
+
+}
+
+#sidePart {
+    /* background: linear-gradient(to bottom, rgb(63, 63, 237), rgb(33, 33, 250)); */
+    width: 20em;
+    text-align: center;
+    padding-top: 2em;
+    color:black;
+    font-weight: bold;
+}
+
+ 
+.sidebar-items{
+    /* border: 2px solid red; */
+    background-color: beige;
+    border-radius: 2em;
+    padding:1em; 
+    width: 8em;
+    margin-left: 4.5em;
+    margin-right: 4.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#personalPicture{
+    padding-top: 3em;
+    background-image: url("https://scontent.fjrs4-1.fna.fbcdn.net/v/t1.6435-9/57258184_1299552036867396_4374521742568194048_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=Nxt7qNhYX7wAX-3MoOS&_nc_oc=AQkO5L_KzY5Dt4twD_SKjvD9a1H3uMdM366JLCTlvuhBlrxM0VPUH_mNW5MP3M05og8&_nc_ht=scontent.fjrs4-1.fna&oh=00_AfD3xHLoy6MAewlFwwjyE8TCkrb75jzxDjGhI2QZqEdpfg&oe=63F33331");
+    border-radius: 1em;
+    width: 15em;
+    height: 15em;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto; /* center the item inside the div */
+    display: block; /* change the item display to block */
+
+}  
+#personalPicture h1 {
+    position: absolute;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: 0; /* remove the default margin */
+    padding: 0.5em;  
+    background-color: gray;  
+    color: white;  
+    text-align: center;  
+    font-size: 1em;
+    
+  }
+ /*  conttent */
+ #contentArea {
+    margin-top: 5em;
+    width: 70em;
+    overflow-y: scroll;
+}
+#contentArea  {
+    margin: 3em;
+}
+ 
+ /*  general  */
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ 
+.flex-item {
+    flex: 1;
+   
+}
+
+@media (max-width: 600px) {
+    #CvCard {
+        flex-direction: column; /* change direction to column when screen is smaller */
+    }
+}
+
+.fz-mid{
+    font-size: x-large;
+}
+.boldandBlue{
+    font-size: xx-large;
+    font-weight: bold;
+    color: darkblue;
+}
+.skillName{
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(5, 5, 47); 
+}
+
+
+
+.contacts img {
+    padding-top: 5em;
+    padding-inline-start:4em;
+    width: 10em;
+    height: 10em;
+  }
+#notfyTextCopied{
+    color: green;
+    padding-left: 4em;
+    font-size: x-large;
+    visibility: hidden;
+}
